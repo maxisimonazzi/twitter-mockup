@@ -1,0 +1,38 @@
+.nav-item:hover {
+background-color: #e8f5fe;
+border-radius: 30px;
+
+}
+
+.nav-link:hover {
+    color: #1da1f2 !important;
+}
+
+.texto-botonera {
+    color: black !important;
+    font-size: 20px !important;
+    font-family: 'Roboto';
+
+}
+
+.fas {
+     padding: 8px 16px !important;
+     font-size: 20px;
+}
+
+.fab {
+    padding: 8px 16px !important;
+    font-size: 20px;
+}
+
+
+.far {
+
+    padding: 8px 16px !important;
+    font-size: 20px;
+}
+
+
+.margen {
+    margin: 10px 0px !important;
+}
