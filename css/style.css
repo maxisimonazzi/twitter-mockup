@@ -1,7 +1,12 @@
-.nav-item:hover {
+.nav-item2:hover {
 background-color: #e8f5fe;
 border-radius: 30px;
 
+}
+
+.logo {
+    color: #1da1f2 !important;
+    font-size: 30px !important;
 }
 
 .nav-link:hover {
@@ -10,29 +15,48 @@ border-radius: 30px;
 
 .texto-botonera {
     color: black !important;
-    font-size: 20px !important;
+    font-size: 22px !important;
     font-family: 'Roboto';
 
 }
 
 .fas {
      padding: 8px 16px !important;
-     font-size: 20px;
+     font-size: 24px;
 }
 
 .fab {
     padding: 8px 16px !important;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 
 .far {
 
     padding: 8px 16px !important;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 
 .margen {
-    margin: 10px 0px !important;
+    margin: 5px 0px !important;
 }
+
+
+
+.twitear {
+    background-color: #1da1f2 !important;
+    border-radius: 30px !important;
+    border-color: #1da1f2 !important;
+    font-size: 18px !important;
+    font-family: 'Roboto';
+}
+
+.twitt {
+    background-color: rgb(29, 161, 242);
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 50px !important;
+}
+
+
