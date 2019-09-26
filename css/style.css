@@ -60,3 +60,163 @@ border-radius: 30px;
 }
 
 
+
+
+
+/* --------------------------------------------------- */
+
+.form-control{
+    border-radius: 20px !important;
+    background-color: #e5ecf0 !important;
+    font-family: 'Segoe UI' !important;
+    font-size: 15px !important;
+    border: none !important;
+}
+
+.form-control:hover{
+    border: 1px #53b1f4 solid !important;
+    background-color: #ffffff !important;
+}
+
+.navbar2{
+    background-color: black !important;
+}
+
+.navbar-light{
+    background-color: black !important;
+}
+
+.bg-light{
+    background-color: black !important;
+}
+
+.tendencias{
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 21px;
+    background-color: #f6f8fa;
+}
+
+.parati{
+    padding-top: 10px;
+    font-family: 'Segoe UI black';
+    font-size: 18px;
+    margin-left: 10px;
+    padding-bottom: -10px;
+}
+
+.rueda{
+    position: relative;
+    top: 10px;
+    height: 20px;
+    align-content: center;
+}
+
+.cuadrocontenido{
+    margin-top: 10px;
+    border-top: solid 1px #e6ecf0;
+}
+
+.cuadrocontenido:hover{
+    background-color: #e6ecf0;
+}
+
+.tendenciaenargentina{
+    font-family: 'Segoe UI';
+    color: #657685;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.PabloPerez{
+    font-family: 'Segoe UI black';
+    color: #000000;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.futbol{
+    height: 70px;
+    border: solid 1px #e6ecf0;
+    margin: 10px 10px 10px 10px;
+    border-radius: 15px;
+
+}
+
+.titulofutbol{
+    font-family: 'Segoe UI';
+    color: #657685;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.parrafo{
+    font-family: 'Segoe UI';
+    color: #000000;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+
+
+.imgftbl{
+    position: relative;
+    top: -65px;
+    margin-left: 210px;
+    width: 70px;
+    height: 70px;
+    border-radius: 0 15px 15px 0;
+}
+
+.mostrarmas{
+    font-family: 'Segoe UI';
+    color: #53b1f4;
+    font-size: 14px;
+    margin-left: 10px;
+    border-top: solid 1px #e6ecf0;
+    padding: 20px 0 20px 0;
+
+}
+
+.mostrarmas:hover{
+    background-color: #e6ecf0;
+}
+
+
+.imgperf{
+    margin-top: 10px;
+    margin-left: 10px; 
+    height: 40px;
+    border-radius: 20px;
+}
+
+.seguir{
+    border-radius: 15px;
+    border: 2px #53b1f4 solid;
+    font-family: 'Segoe UI';
+    color: #53b1f4;
+    align-content: center;
+    height: 30px;
+    width: 200px;
+    margin-top: 10px;
+    padding-right: 20px; 
+
+}
+
+.pie_der{
+    margin-top: 30px;
+    width: 300px;
+}
+
+.terminos{
+    margin-top: 10px;
+    font-family: 'Segoe UI';
+    font-size: 13px;
+    color: #6e7e8c;
+
+}
+
+
+.formtransp {
+    background-color: transparent !important;
+}
