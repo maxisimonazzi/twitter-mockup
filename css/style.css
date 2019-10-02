@@ -93,7 +93,7 @@ border-radius: 30px;
 .tendencias{
     width: 300px;
     margin-top: 20px;
-    border-radius: 21px;
+    border-radius: 20px;
     background-color: #f6f8fa;
 }
 
@@ -114,6 +114,7 @@ border-radius: 30px;
 
 .cuadrocontenido{
     margin-top: 10px;
+    margin-bottom: 10px;
     border-top: solid 1px #e6ecf0;
 }
 
@@ -172,14 +173,15 @@ border-radius: 30px;
     font-family: 'Segoe UI';
     color: #53b1f4;
     font-size: 14px;
-    margin-left: 10px;
     border-top: solid 1px #e6ecf0;
-    padding: 20px 0 20px 0;
+    padding: 20px 0 20px 10px;
 
 }
 
 .mostrarmas:hover{
     background-color: #e6ecf0;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 30px;
 }
 
 
@@ -200,7 +202,10 @@ border-radius: 30px;
     width: 200px;
     margin-top: 10px;
     padding-right: 20px; 
+}
 
+.seguir:hover{
+    background-color: #D8E9F5;
 }
 
 .pie_der{
@@ -219,4 +224,308 @@ border-radius: 30px;
 
 .formtransp {
     background-color: transparent !important;
+}
+
+
+/* --------------------------------------------------- */
+
+
+
+
+
+.tweet {
+    margin: 0px;
+    border-bottom: 1px #bebebe solid;
+    padding: 0px;
+}
+
+.tweetcontainer {
+    border: 1px #bebebe solid;
+}
+
+
+.avatar {
+    border-radius: 400px;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.author {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin: 5px;
+}
+
+
+.fa-check-circle {
+
+    font-size: 15px;
+    padding: 0px !important;
+    color: #1da1f2;
+}
+
+.verified {
+    padding: 0px;
+    margin: 5px;
+}
+
+.nick {
+    margin: 5px;
+    color: #808080;
+}
+
+.time {
+    margin: 5px;
+    color: #808080;
+}
+
+.tweettext {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, Arial, sans-serif;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.imgmargin {
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.comment {
+    margin: 5px;
+    color: #808080;
+    font-size: 14px;
+    padding: 0px !important;
+}
+
+.retweet {
+    margin: 5px;
+    color: #808080;
+    font-size: 14px;
+    padding: 0px !important;
+}
+
+.like {
+    margin: 5px;
+    color: #808080;
+    font-size: 14px;
+    padding: 0px !important;
+}
+
+.share {
+    margin: 5px;
+    color: #808080;
+    font-size: 14px;
+    padding: 0px !important;
+}
+
+.fa-comment {
+    font-size: 16px;
+}
+.fa-retweet {
+    font-size: 16px;
+}
+.fa-heart {
+    font-size: 16px;
+}
+.fa-external-link-alt {
+    font-size: 16px;
+}
+
+
+.fa-comment:hover {
+    background-color: rgba(29,161,242,0.15);
+    color: #1da1f2;
+    border-radius: 50px;
+    padding: 0px;
+    
+}
+.fa-retweet:hover {
+    background-color: rgba(50,200,50,0.15);
+    color: #32c832;
+    border-radius: 50px;
+    padding: 0px;
+}
+.fa-heart:hover {
+    background-color: rgba(200,30,50,0.15);
+    color: #c81e32;
+    border-radius: 50px;
+    padding: 0px;
+}
+.fa-external-link-alt:hover {
+    background-color: rgba(29,161,242,0.15);
+    color: #1da1f2;
+    border-radius: 50px;
+    padding: 0px;
+}
+
+.avatarcontainer {
+    align-items: center;
+    padding: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------- */
+
+
+.box{
+    position: relative;
+}
+
+.container-1{
+    top: 7px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+  .container-1 input#search_1{
+    width: 300px;
+    height: 40px;
+    background: #e5ecf0;
+    border: none;
+    font-size: 12pt;
+    float: left;
+    color: #6c757d;
+    padding-left: 50px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 20px;
+}
+  
+.container-1 .iconlupa{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #4f5b66;
+}
+
+/* --------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------- */
+
+
+.seccion_5{
+    border-right:  #e6ecf0 1px solid;
+    border-left:  #e6ecf0 1px solid;
+}
+
+.container_5{
+    border-bottom: #e6ecf0 1px solid;
+    margin-bottom: 20px;
+}
+
+
+.inicio_5 {
+    font-size: 20px;
+    font-family:  'Segoe UI black';
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.estrella{
+    width: 25px;
+    margin-top: 10px;
+    left: 50%;
+}
+
+.container_6{
+    margin-bottom: 20px;
+}
+
+.userlogo{
+    width: 50px;
+}
+
+.pasando_5{
+    color: #969ba7;
+    font-size: 16PX;
+    font-family: 'Segoe UI';
+    padding-top: 10px;
+    right: 20px;
+}
+
+.iconimg{
+    width: 20px;
+}
+
+.iconimg:hover{
+    background: #a1d7f8;
+    border-radius: 15px;
+}    
+
+.icongif{
+    height: 20px;
+}
+
+.icongif:hover{
+    background: #a1d7f8;
+    border-radius: 15px;
+}    
+
+.iconest{
+    width: 20px;
+}
+
+.iconest:hover{
+    background: #a1d7f8;
+    border-radius: 15px;
+}    
+
+.iconemo{
+    width: 20px;
+}
+
+.iconemo:hover{
+    background: #a1d7f8;
+    border-radius: 15px;
+}    
+
+.iconcirc{
+    width: 20px;
+}
+
+.iconmas{
+    width: 30px;
+    margin-right: 100px;
+}
+
+.caja_twittear{
+    top: -5px;
+}
+
+.twittear_5{
+    padding-top: 7px;
+    text-align: center;
+    justify-content: center;
+    height: 40px;
+    font-size: 16PX;
+    color: #ffffff;
+    font-family: 'Segoe UI black';
+    background-color: #63bdf6;
+    border-radius: 20px;
+}
+
+.linea-gris{
+    margin-top: 10px;
+    height: 10px;
+    background-color: #e6ecf0
 }
