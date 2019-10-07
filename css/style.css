@@ -91,7 +91,7 @@ border-radius: 30px;
 }
 
 .tendencias{
-    width: 300px;
+    width: 100%;
     margin-top: 20px;
     border-radius: 20px;
     background-color: #f6f8fa;
@@ -137,7 +137,7 @@ border-radius: 30px;
 }
 
 .futbol{
-    height: 70px;
+    height: 90px;
     border: solid 1px #e6ecf0;
     margin: 10px 10px 10px 10px;
     border-radius: 15px;
@@ -162,12 +162,26 @@ border-radius: 30px;
 
 .imgftbl{
     position: relative;
-    top: -65px;
-    margin-left: 210px;
-    width: 70px;
-    height: 70px;
+    top: -85px;
+    width: 85px;
+    height: 90px;
     border-radius: 0 15px 15px 0;
 }
+
+@media only screen and (min-width: 992px) {
+    .imgftbl {
+    margin-left: 185px;
+    }
+
+} 
+
+@media only screen and (min-width: 1200px) {
+    .imgftbl {
+    margin-left: 150px;
+    }
+
+} 
+
 
 .mostrarmas{
     font-family: 'Segoe UI';
@@ -199,10 +213,25 @@ border-radius: 30px;
     color: #53b1f4;
     align-content: center;
     height: 30px;
-    width: 200px;
+    width: 200px !important;
     margin-top: 10px;
-    padding-right: 20px; 
+
 }
+
+@media only screen and (min-width: 992px) {
+    .seguir {
+        padding: 0px 15px !important;
+    }
+
+} 
+
+@media only screen and (min-width: 1200px) {
+    .seguir {
+        padding: 0px 10px !important;
+    }
+
+} 
+
 
 .seguir:hover{
     background-color: #D8E9F5;
@@ -210,7 +239,7 @@ border-radius: 30px;
 
 .pie_der{
     margin-top: 30px;
-    width: 300px;
+    width: 100%;
 }
 
 .terminos{
@@ -234,13 +263,13 @@ border-radius: 30px;
 
 
 .tweet {
-    margin: 0px;
-    border-bottom: 1px #bebebe solid;
-    padding: 0px;
+    margin: 0px -15px;
+    border-bottom: 1px #e6ecf0 solid;
+    padding: 15px 0px;
 }
 
 .tweetcontainer {
-    border: 1px #bebebe solid;
+    border: 1px #e6ecf0 solid;
 }
 
 
@@ -287,8 +316,9 @@ border-radius: 30px;
 }
 
 .imgmargin {
-    margin: 5px;
-    border-radius: 15px;
+    margin: 0px;
+    border-radius: 30px;
+    padding: 15px;
 }
 
 .comment {
@@ -386,40 +416,46 @@ border-radius: 30px;
     vertical-align: middle;
     white-space: nowrap;
     position: relative;
+    padding:0 0 0 20px;
+
 }
 
   .container-1 input#search_1{
-    width: 300px;
+    width: 100%;
     height: 40px;
     background: #e5ecf0;
     border: none;
     font-size: 12pt;
     float: left;
     color: #6c757d;
-    padding-left: 50px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+    padding-left: 20px;
     border-radius: 20px;
 }
   
 .container-1 .iconlupa{
     position: absolute;
-    margin-top: 10px;
-    margin-left: 20px;
     color: #4f5b66;
+    top: 8px;
+    right: 35px;
 }
 
+@media only screen and (min-width: 992px) {
+    .container-1{
+        width: 107%;
+    } 
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .container-1{
+        width: 100%;
+    }
+} 
+
+
+
 /* --------------------------------------------------- */
 
-
-
-
-
-
-
-
-
-/* --------------------------------------------------- */
 
 
 .seccion_5{
@@ -429,7 +465,7 @@ border-radius: 30px;
 
 .container_5{
     border-bottom: #e6ecf0 1px solid;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
 
 
@@ -529,3 +565,4 @@ border-radius: 30px;
     height: 10px;
     background-color: #e6ecf0
 }
+
